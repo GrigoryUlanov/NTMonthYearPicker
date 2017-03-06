@@ -407,6 +407,12 @@ numberOfRowsInComponent:(NSInteger)component {
     [self sendActionsForControlEvents:UIControlEventValueChanged];
 }
 
+- (void)layoutSubviews {
+    [super layoutSubviews];
+
+    _pickerView.frame = self.bounds;
+}
+
 #pragma mark - NTMonthYearPicker API
 
 - (NTMonthYearPickerMode)datePickerMode {
