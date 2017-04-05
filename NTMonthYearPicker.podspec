@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.author   = { 'Arun Nair' => 'nairteashop@gmail.com' }
 
   s.platform = :ios
-  s.source   = { :git => 'https://github.com/nairteashop/NTMonthYearPicker.git', :tag => s.version.to_s }
+  s.source   = { :git => 'https://github.com/TouchInstinct/NTMonthYearPicker.git', :tag => s.version.to_s }
   s.source_files = 'NTMonthYearPicker/*.{h,m}'
   s.requires_arc = true
 end
